@@ -65,7 +65,7 @@ export function App(): JSX.Element | null {
             <Route path="/:resourceType/:id/*" element={<ResourcePage />} />
             <Route path="/:resourceType" element={<SearchPage />} />
             <Route path="/Encounter/:id/*" element={<EncounterPage />} />
-            <Route path="/upload/:dataType" element={<UploadDataPage />} />
+            {/* <Route path="/upload/:dataType" element={<UploadDataPage />} /> */}
           </Routes>
         </Suspense>
       </ErrorBoundary>
